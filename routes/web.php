@@ -19,3 +19,4 @@ Route::get('/',[TestController::class,'welcome'])->name('index.home');
 
 Route::post('/store',[TestController::class,'store'])->name('store_info');
 Route::post('/search_cat',[TestController::class,'search_cat'])->name('search_cat');
+Route::post('/validasi',[TestController::class,'validasi'])->name('validasi');
